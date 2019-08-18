@@ -1,0 +1,18 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(189, 150, 43, 0.555);
+    color: black;
+    text-align: center;
+    height: 80px;
+ }
+ #icons {
+    float: left;
+ }
+ img {
+    float: right;
+    height: 50px;
+    width: 50px;
+ }

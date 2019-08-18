@@ -1,0 +1,15 @@
+<div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutGap="1%" fxLayoutAlign.xs="center center" fxLayoutWrap>
+  <mat-card class="card" fxFlexOrder.lt-md="4" *ngFor="let track of tracks">
+        
+          <mat-card-header>
+            <mat-card-title>Dear Comrade</mat-card-title><br>
+            <mat-card-subtitle>{{track.name}}</mat-card-subtitle>
+            </mat-card-header>
+          <img mat-card-image class="img" src="assets/index1.jpeg"/>
+          <mat-card-actions>
+              <button mat-button (click)=saveTrack(track)>LIKE <mat-icon>favorite</mat-icon></button>
+              <button mat-button>COMMENT<mat-icon> comment</mat-icon></button>
+          </mat-card-actions>
+       
+        </mat-card>
+      </div>

@@ -1,0 +1,29 @@
+
+      #logo{
+        width:150px;
+        /* float: left; */
+        padding-right: 10px;
+        
+        }
+        
+        #search >*:not(:first-child){
+        /* float: right; */
+        padding-left:370px;
+        
+        }
+         
+         #search{
+            padding: 60px;
+           
+        } 
+        
+        #button{
+        background-color:aliceblue;
+        
+        }
+        
+        #playlist{
+            background-color: aliceblue;
+            /* background-size: 300px; */
+        }
+

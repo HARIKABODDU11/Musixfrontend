@@ -1,0 +1,11 @@
+<mat-toolbar id="search">
+  <div>
+    <img id=logo src="assets/images.jpeg" />
+  </div>
+  <app-search></app-search>
+  <div>
+   <a routerLink="/playList"> <button id=button mat-button mat-fab (click)=getPlayList()>
+      <mat-icon id=playlist>play_circle_outline</mat-icon>
+    </button></a>
+  </div>
+</mat-toolbar>
